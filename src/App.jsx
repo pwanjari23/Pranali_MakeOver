@@ -6,6 +6,7 @@ import AboutSection from './components/AboutSection';
 import ServicesSection from './components/ServicesSection';
 import CelebrityPortfolio from './components/CelebrityPortfolio';
 import AcademySection from './components/AcademySection';
+import GoogleReviewsSection from './components/GoogleReviewsSection';
 import VisitBookingSection from './components/VisitBookingSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
@@ -38,7 +39,10 @@ function App() {
         {/* F. Dedicated Beauty & Makeup Artistry Academy */}
         <AcademySection />
 
-        {/* G. Working Hours, Studio Location & Booking Section (matching reference split layout) */}
+        {/* G. Verified Google Reviews & Scannable Review QR Code */}
+        <GoogleReviewsSection />
+
+        {/* H. Working Hours, Studio Location & Booking Section (matching reference split layout) */}
         <VisitBookingSection />
 
         {/* H. Quick Consultation & Contact Section with Verified Links */}

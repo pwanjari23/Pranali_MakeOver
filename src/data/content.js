@@ -9,7 +9,7 @@ export const CLIENT_INFO = {
   tagline: "Beauty, Artistry & Elegance.",
   subtitle: "Pune's destination for couture bridal makeovers, celebrity styling, luxury salon rituals, and certified beauty education.",
   
-  // Official Contact Channels
+  // Official Contact Channels & Verified Google Presence
   instagram: "https://www.instagram.com/pranali_chilap_makeupartist/",
   instagramHandle: "@pranali_chilap_makeupartist",
   email: "pranuchilap@gmail.com",
@@ -17,10 +17,15 @@ export const CLIENT_INFO = {
   whatsappNumber: "919820012345",
   whatsappUrl: "https://wa.me/919820012345",
   googleMapsUrl: "https://maps.google.com/maps?ftid=0x3bc2c30023778c07:0xa9239bb4c7e25f77",
-  locationDisplay: "Mundhwa - Manjri Road, Pune, Maharashtra",
+  googleReviewUrl: "https://www.google.com/search?q=Pranali+Makeover+Studio+and+Academy+Pune#lrd=0x3bc2c30023778c07:0xa9239bb4c7e25f77,3",
+  googleBusinessTitle: "Pranali Makeover Studio and Academy",
+  googleRating: 5.0,
+  googleReviewCount: 48,
+  locationDisplay: "Icon Tower, Manjri Rd, near Z Corner, Pune",
+  fullAddress: "First Floor, Shop No. 1, Icon Tower, Manjri Rd, above Ponta Mart, near Z Corner, Shiv Krishna Society, Keshav Nagar, Manjri Budruk, Pune, Maharashtra",
   
   hours: [
-    { days: "Monday – Saturday", time: "10:00 AM – 8:30 PM" },
+    { days: "Monday – Saturday", time: "10:00 AM – 9:00 PM" },
     { days: "Sunday", time: "By Appointment Only" },
   ]
 };

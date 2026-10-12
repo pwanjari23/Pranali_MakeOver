@@ -26,6 +26,7 @@ export default function Navbar() {
     { name: 'Services', href: '#services' },
     { name: 'Celebrity Work', href: '#portfolio' },
     { name: 'Academy', href: '#academy' },
+    { name: 'Reviews', href: '#reviews' },
     { name: 'Visit & Contact', href: '#contact' },
   ];
 

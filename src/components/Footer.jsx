@@ -36,6 +36,9 @@ export default function Footer() {
                 <a href="#academy" className="hover:text-luxury-gold transition-colors">Beauty Academy Courses</a>
               </li>
               <li>
+                <a href="#reviews" className="hover:text-luxury-gold transition-colors">Google Reviews (5.0 ★)</a>
+              </li>
+              <li>
                 <a href="#contact" className="hover:text-luxury-gold transition-colors">Book An Appointment</a>
               </li>
             </ul>
