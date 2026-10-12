@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: #C5A371;
+    color: #14110F;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #14110F;
+}
+::-webkit-scrollbar-thumb {
+  background: #362E27;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A371;
+}
+
+/* Hide scrollbar for mobile swipe rails */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Grain texture overlay option */
+.bg-grain {
+  background-image: radial-gradient(rgba(197, 163, 113, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Luxury card borders */
+.border-gold-subtle {
+  border-color: rgba(197, 163, 113, 0.25);
+}
+
+.glow-gold {
+  box-shadow: 0 0 35px -5px rgba(197, 163, 113, 0.22);
+}
